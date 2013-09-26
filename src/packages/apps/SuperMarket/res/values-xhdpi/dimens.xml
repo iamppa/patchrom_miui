@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- The perfect icon size 136px -->
+    <dimen name="display_icon_size">68dip</dimen>
+    <dimen name="customized_icon_size">48dip</dimen>
+    <dimen name="icon_size">68dip</dimen>
+
+    <!-- 338 x 204 -->
+    <dimen name="collection_grid_width">169dip</dimen>
+    <dimen name="collection_grid_height">102dip</dimen>
+
+    <dimen name="new_update_font_size">7.5sp</dimen>
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="YellowPageActionBarStyle" parent="@miui:style/V5.Widget.ActionBar.Large">
+        <item name="android:background">@null</item>
+        <item name="android:displayOptions">showTitle</item>
+        <item name="android:height">@dimen/yellow_page_movable_action_bar_height</item>
+    </style>
+
+    <style name="YellowPageMovableActionBarLayoutStyle" parent="@miui:style/V5.Widget.ActionBarMovableLayout">
+        <item name="miui:v5_over_scroll_range">@dimen/movable_action_bar_over_scroll_range</item>
+        <item name="miui:v5_scroll_range">@dimen/yellow_page_tab_scroll_range</item>
+        <item name="miui:v5_initial_motion">@dimen/yellow_page_tab_scroll_range</item>
+    </style>
+
+    <style name="CallLogListItemTextAppearancePrimary" parent="@miui:style/V5.TextAppearance.List.Primary">
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="YellowPageListItemTextAppearancePrimary" parent="@style/CallLogListItemTextAppearancePrimary">
+    </style>
+
+    <style name="CallLogListItemTextAppearanceSecondary" parent="@miui:style/V5.TextAppearance.List.Secondary">
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="YellowPageListItemTextAppearanceSecondary" parent="@style/CallLogListItemTextAppearanceSecondary">
+    </style>
+
+    <style name="CallLogListItemMissedCallTextAppearance" parent="@style/CallLogListItemTextAppearancePrimary">
+        <item name="android:textColor">@color/missed_call_text</item>
+    </style>
+
+    <style name="HightlightedTextAppearance" parent="@miui:style/V5.TextAppearance.List.Primary">
+        <item name="android:textColor">@color/yellow_page_highlight_text_color</item>
+    </style>
+
+    <style name="PaymentResultTitleTextAppearance" parent="@miui:style/V5.TextAppearance.List.Primary">
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="PaymentResultSummaryTextAppearance" parent="@miui:style/V5.TextAppearance.List.Secondary">
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="PaymentLabel" parent="@miui:style/V5.TextAppearance.List.Secondary">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/payment_label_height</item>
+        <item name="android:layout_marginLeft">@dimen/payment_label_margin</item>
+        <item name="android:layout_marginRight">@dimen/payment_label_margin</item>
+        <item name="android:paddingBottom">@dimen/payment_vertical_margin</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:gravity">bottom</item>
+    </style>
+
+    <!-- Widget Style -->
+    <style name="Widget" parent="@miui:style/V5.Widget" />
+
+    <style name="Widget.Button" parent="@miui:style/V5.Widget.Button" />
+
+    <style name="Widget.Button.Retry">
+        <item name="android:background">@drawable/common_btn</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">@dimen/large_button_height</item>
+        <item name="android:paddingLeft">36dip</item>
+        <item name="android:paddingRight">36dip</item>
+        <item name="android:layout_marginTop">10dip</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="ExpressInquiryIndicationTextStyle" parent="@miui:style/V5.TextAppearance.PreferenceCategory">
+        <item name="android:textSize">@miui:dimen/v5_text_font_size_medium</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">@dimen/express_inquiry_fragment_indication_text_padding</item>
+    </style>
+
+</resources>
