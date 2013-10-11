@@ -701,4 +701,12 @@ including passwords, credit card numbers, and other personal data. Do you want t
     <string name="sync_wifi_only">Wi-Fi only</string>
     <string name="line_breaking_title">Paragraph text optimization</string>
     <string name="line_breaking_summary">optimize paragraph line breaking</string>
+
+    <string name="nfc_se_route_title">Secure element position</string>
+    <string-array name="se_route_options">
+        <item>Embedded secure element</item>
+        <item>Secure element on SIM card</item>
+    </string-array>
+    <string name="current_use_uicc_se">Using secure element on SIM card</string>
+    <string name="current_use_ese">Using embedded secure element</string>
 </resources>

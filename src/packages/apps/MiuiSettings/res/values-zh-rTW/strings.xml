@@ -735,4 +735,12 @@
     <string name="sync_wifi_only">僅在Wi-Fi下同步</string>
     <string name="line_breaking_title">段落文字優化</string>
     <string name="line_breaking_summary">優化中文段落的折行效果</string>
+
+    <string name="nfc_se_route_title">安全元件位置</string>
+    <string-array name="se_route_options">
+        <item>內建安全元件</item>
+        <item>SIM卡中的安全元件</item>
+    </string-array>
+    <string name="current_use_uicc_se">目前使用SIM卡中的安全元件</string>
+    <string name="current_use_ese">目前使用內建安全元件</string>
 </resources>

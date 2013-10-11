@@ -470,4 +470,12 @@
         <item>@string/dndm_auto_time_turn_on</item>
         <item>@string/dndm_auto_time_turn_off</item>
     </string-array>
+
+    <string-array translatable="false" name="nfc_se_route_values">
+        <!-- values defined in NfcService.XXXX_ID_TYPE-->
+        <!-- 1 for embedded SE -->
+        <item>1</item>
+        <!-- 2 for UICC SE -->
+        <item>2</item>
+    </string-array>
 </resources>
