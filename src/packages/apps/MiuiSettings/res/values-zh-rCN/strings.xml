@@ -57,8 +57,10 @@
     <string name="touch_title">触控</string>
     <string name="touch_sensitive_title">手套模式</string>
     <string name="touch_sensitive_summary">启用超灵敏触控，戴手套也能操作手机，开启时会同时打开防误触模式</string>
-    <string name="touch_sensitive_turn_off_title">关闭手套模式</string>
+    <string name="touch_sensitive_turn_off_title">手套模式已关闭</string>
     <string name="touch_sensitive_turn_off_summary">要同时关闭“防误触模式”吗？</string>
+    <string name="touch_sensitive_turn_off_confirm">关闭防误触</string>
+    <string name="touch_sensitive_turn_off_cancel">不关闭</string>
     <string name="screen_never_timeout_title">屏幕永不休眠</string>
     <string name="screen_on_proximity_sensor_title">防误触模式</string>
     <string name="screen_on_proximity_sensor_summary">利用距离感应器，防止手机在口袋中由于挤压或织物滑动引起的误操作。</string>
@@ -582,13 +584,27 @@
     <string name="bugreport_tool_log_toast_generate_bugreport">正在生成bug报告，大概需要1分钟</string>
     <string name="bugreport_tool_log_toast">Log已保存到%s</string>
     <string name="wifi_tether_setting_title">基本设置</string>
-    <string name="wifi_priority_settings_label">优先级设定</string>
     <string name="audio_profile_settings_title">情景模式</string>
     <string name="enable_wifi_display">开启无线显示</string>
 
     <string name="xiaomi_cloud_service">小米云服务</string>
     <string name="xiaomi_money_service">米币中心</string>
     <string name="wifi_auto_connect">自动连接</string>
+
+    <!-- wifi settings -->
+    <string name="select_ssid_type_title">不同 SSID 间重选</string>
+    <string name="gsm_to_wifi_connect_type_title">蜂窝网至 Wi-Fi 重选</string>
+    <string name="wifi_priority_settings_label">优先级设定</string>
+    <string name="wifi_priority_type_title">手动设定接入点的优先级</string>
+    <string name="wifi_priority_type_summary">允许手动设定每个接入点的优先级</string>
+    <string name="wifi_priority_settings_title">接入点优先级设定</string>
+    <string name="wifi_priority_settings_summary">点击设定各接入点的优先级</string>
+    <string name="wifi_priority_changed">原优先级=<xliff:g id="old_value">%s</xliff:g>,新设定=<xliff:g id="new_value">%s</xliff:g></string>
+    <string name="wifi_configured_ap_list">已保存的接入点列表</string>
+    <string name="wifi_priority_label">优先级</string>
+    <string name="wifi_available_title">连接到 Wi-Fi</string>
+    <string name="msg_wlan_signal_found">发现 Wi-Fi 信号 %s, 您是否要使用该 Wi-Fi 网络？ 使用该网络将部分中断当前的数据连接。</string>
+    <string name="wifi_signal_found_msg">发现可用 Wi-Fi 信号，是否立即连接？</string>
 
     <!-- nfc settings -->
     <string name="nfc_category_title">NFC</string>

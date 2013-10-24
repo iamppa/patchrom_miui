@@ -445,5 +445,5 @@
     <string name="enter_callbarring_password">Enter call barring password(4 numbers)</string>
     <string name="wrong_password">Password error</string>
     <!-- call barring: END -->
-    <string name="suspect_info" translatable="false">通话中请勿轻信汇款及中奖信息</string>
+    <string name="suspect_info" translatable="false">安全提示:此号码由系统自动识别,通话中涉及财产信息请核实对方身份</string>
 </resources>
